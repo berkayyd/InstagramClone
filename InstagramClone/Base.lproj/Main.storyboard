@@ -115,6 +115,9 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Upload"/>
+                                <connections>
+                                    <action selector="uploadBtnClicked:" destination="qeP-GC-oj8" eventType="touchUpInside" id="C7C-Na-H5S"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="M4h-FQ-0Nl"/>
@@ -132,6 +135,10 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Upload" image="u.circle.fill" catalog="system" id="IfU-Dl-Kcn"/>
+                    <connections>
+                        <outlet property="commentText" destination="Xqf-bg-sEC" id="XXd-Nl-Dgp"/>
+                        <outlet property="imageView" destination="k11-k7-8Xw" id="Cmb-Oz-Van"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YQE-xU-iSF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
