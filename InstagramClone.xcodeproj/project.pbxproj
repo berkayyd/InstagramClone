@@ -18,6 +18,7 @@
 		F001F7582BB465BD002A7189 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F001F7572BB465BD002A7189 /* FeedViewController.swift */; };
 		F001F75A2BB465F8002A7189 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F001F7592BB465F8002A7189 /* UploadViewController.swift */; };
 		F001F75C2BB4660C002A7189 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F001F75B2BB4660C002A7189 /* SettingsViewController.swift */; };
+		F0F7D5012BB61F4F005EA7AA /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F7D5002BB61F4F005EA7AA /* FeedCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		F001F7572BB465BD002A7189 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeedViewController.swift; path = Assets.xcassets/FeedViewController.swift; sourceTree = "<group>"; };
 		F001F7592BB465F8002A7189 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
 		F001F75B2BB4660C002A7189 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		F0F7D5002BB61F4F005EA7AA /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		F450E07CE9370DFBDEC4D6BD /* Pods_InstagramClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -85,6 +87,7 @@
 				F001F7572BB465BD002A7189 /* FeedViewController.swift */,
 				F001F7592BB465F8002A7189 /* UploadViewController.swift */,
 				F001F75B2BB4660C002A7189 /* SettingsViewController.swift */,
+				F0F7D5002BB61F4F005EA7AA /* FeedCell.swift */,
 				F001F7472BB452D8002A7189 /* Main.storyboard */,
 				F001F74A2BB452D9002A7189 /* Assets.xcassets */,
 				F001F74C2BB452D9002A7189 /* LaunchScreen.storyboard */,
@@ -219,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0F7D5012BB61F4F005EA7AA /* FeedCell.swift in Sources */,
 				F001F7462BB452D8002A7189 /* ViewController.swift in Sources */,
 				F001F75A2BB465F8002A7189 /* UploadViewController.swift in Sources */,
 				F001F7422BB452D8002A7189 /* AppDelegate.swift in Sources */,
